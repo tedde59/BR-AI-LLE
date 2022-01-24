@@ -64,10 +64,11 @@ So in order to train and test this systems, we need a data set. I did a quick se
 ## Challenges
 
 I guess the challenge is to making the solution not too complex. so it can operate on smaller devices with limited resources, if building an integrated sensor, pattern recognition, display unit, as discussed above.
+<br>
 Also, getting access to (creating) a dataset is a major startup work.
 
 
 ## Sources
 
 <br>[Wikipedia: Braille](https://en.wikipedia.org/wiki/Brailleses/by/2.0)
-<br>[Gonçalves] (DOI:https://doi.org/10.5753/wvc.2020.13492)
+<br>[Gonçalves] (https://doi.org/10.5753/wvc.2020.13492)
