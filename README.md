@@ -52,21 +52,14 @@ The problem and solution has similarities with methods working with the MNIST im
 
 The Braille pattern typically look like this:
 
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (L with file path, if you've uploaded an image to Github.)
 ![Braille](termer1.gif)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
 
 
 ## Data sources and AI methods
 
 As previously discussed, since the e-skin (the tactile sensor) is under development, using computer generated patterns (images) of the matrix of dots with irregularities, noise, rotation, etc. for training and testing of characters are needed. 
 
-So in order to train and test this systems, we need to generate
+So in order to train and test this systems, we need a data set. I did a quick search on internet, there are scientific and project presentation which use jphoto images as input, but no larger publically available data set [Gonçalves]
 
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
 If you need to use links, here's an example:
@@ -86,6 +79,7 @@ What does your project _not_ solve? Which limitations and ethical considerations
 How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 
 
-## Acknowledgments
+## Sources
 
-<br>[Braille](https://en.wikipedia.org/wiki/Brailleses/by/2.0)c
+<br>[Braille](https://en.wikipedia.org/wiki/Brailleses/by/2.0)
+<br>[Gonçalves] (DOI:https://doi.org/10.5753/wvc.2020.13492)
