@@ -1,2 +1,91 @@
 # BR-AI-LLE
 Building AI course project
+
+# Project Title
+
+Final project for the Building AI course: BR-AI-LLE
+
+
+## Summary
+
+Tactile interpretation of Braille signs, used by visually impaired persons using the fingertips, for machine-based reading of such texts, used e.g. for training humans to learn to read such characters. 
+
+Using a tactile sensor to collect data from  Braille signs and translate to characters in the computer. Since the sensor is under development, using computer generated patterns (images) of the matrix of dots with irregularities, noise, rotation, etc. AI will used for the recognition of characters.
+
+
+
+## Background
+
+Braille is the primary medium of written communication for persons who are visually impaired. It is read by tactile sensing in the finger tips of the persons. It can be read either on embossed paper or by using refreshable braille displays that connect to computers and smartphone devices. Braille can be written using a slate and stylus, a braille writer, an electronic braille notetaker or with the use of a computer connected to a braille embosser
+
+A high-resolution tactile sensor on flexible substrate (e-skin) is being developed at Uppsala University Sweden, with resolution similar to the tactile resolution of human finger tips, about one sensor point, taxel, per millimeter).
+
+One possible application that needs data processing and interpretation of the taxel information is identification of tactile Braille signs and translation to characters in the computer. The process to read with the finger tips is not simple and can take a long time to learn. There are computer-based generators of mechanical patterns that human can read, but a reading tool for existing texts would be very useful, especially in the learning process or for elderly people with reduce tactile sensing. As pointed out at mtm.se (see link at the end), the resources for teaching Braille are very limited, especially on human resources, so any tool that could ease the learning process is useful.
+
+Pattern recognition using AI-based methods may provide robust solution when reading actual "mechanical" signs (usually deformation of printed paper), since there may be variation of size, height, quality and rotation of the characters.
+
+In Sweden, around 1200 persons can read Braille, but many more could learn it if not limited by e.g. teaching resources. The same character set (with variants) are used around the world and thus not limited to a certain country or culture region.
+
+
+Problems to be solved:
+
+1. Selection of starting machine learning method.
+To identify and translate the patterns (basically a 2 x 3 matrix of dots with size and separation in the millimeter scale, AI-based pattern recognition will be needed. 
+Since the Braille matrix consists of only 2 x 3 dots per character (some special written characters use two Braille characters), a rather simple and non-complicated ML-method, similar to images recognition problems such as identifying handwriting, could be a good start to find a method with a good balance between accuracy and complexity. 
+
+2. Obtaining material for training and testing.
+Since the e-skin (the tactile sensor) is under development, using computer generated patterns (images) of the matrix of dots with irregularities, noise, rotation, etc., for training and testing of characters are needed. 
+
+3. Training, testing, verifying selected ML method.
+
+4. Suggestion for improvements.
+
+
+
+
+## How is it used?
+
+The solution is used to translate characters, and thus written text, from a Braille pattern (in the form of a image or pattern from an actual tactile sensor), to a computer-generated text on a computer screen or a special integrated reading device (sensor, interpretation of characters, display).
+This project concentrates on using computer-generated images for training and testing.
+The problem and solution has similarities with methods working with the MNIST image collection for handwriting identification of handwritten numbers.
+
+
+The Braille pattern typically look like this:
+
+
+Images will make your README look nice!
+Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+
+If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+
+
+
+## Data sources and AI methods
+
+As previously discussed, since the e-skin (the tactile sensor) is under development, using computer generated patterns (images) of the matrix of dots with irregularities, noise, rotation, etc. for training and testing of characters are needed. 
+
+So in order to train and test this systems, we need to generate
+
+Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+If you need to use links, here's an example:
+[Twitter API](https://developer.twitter.com/en/docs)
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+## Challenges
+
+What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+
+## What next?
+
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+
+
+## Acknowledgments
+
+<br>[Braille](https://en.wikipedia.org/wiki/Brailleses/by/2.0)c
