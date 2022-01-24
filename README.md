@@ -42,7 +42,6 @@ Since the e-skin (the tactile sensor) is under development, using computer gener
 
 
 
-
 ## How is it used?
 
 The solution is used to translate characters, and thus written text, from a Braille pattern (in the form of a image or pattern from an actual tactile sensor), to a computer-generated text on a computer screen or a special integrated reading device (sensor, interpretation of characters, display).
@@ -61,25 +60,14 @@ As previously discussed, since the e-skin (the tactile sensor) is under developm
 
 So in order to train and test this systems, we need a data set. I did a quick search on internet, there are scientific and project presentation which use jphoto images as input, but no larger publically available data set [Gonçalves]
 
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-
-## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+I guess the challenge is to making the solution not too complex. so it can operate on smaller devices with limited resources, if building an integrated sensor, pattern recognition, display unit, as discussed above.
+Also, getting access to (creating) a dataset is a major startup work.
 
 
 ## Sources
 
-<br>[Braille](https://en.wikipedia.org/wiki/Brailleses/by/2.0)
+<br>[Wikipedia: Braille](https://en.wikipedia.org/wiki/Brailleses/by/2.0)
 <br>[Gonçalves] (DOI:https://doi.org/10.5753/wvc.2020.13492)
